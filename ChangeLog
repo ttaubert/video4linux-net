@@ -1,10 +1,10 @@
-2008-04-24  Tim Taubert <ttmails@users.berlios.de> 
+2008-04-24  Tim Taubert
 
 	* Analog/Kernel/V4L1/video_capability.cs, Analog/Kernel/V4L1/video_type.cs,
 	  Analog/V4L1Adapter.cs, Core/V4L1IOControl.cs, v4l-net.mdp: some
 	  premature v4l1 tests implemented
 
-2008-04-24  Tim Taubert <ttmails@users.berlios.de> 
+2008-04-24  Tim Taubert
 
 	* Analog/Kernel/V4L1, Analog/Kernel/V4L1/video_capability.cs,
 	  Analog/Kernel/V4L2, Analog/Kernel/V4L2/v4l2_audio.cs,
@@ -53,63 +53,63 @@
 
 === Release 0.4 ===
 
-2008-01-21  Tim Taubert <twenty-three@users.berlios.de> 
+2008-01-21  Tim Taubert
 
 	* Analog/Adapter.cs, Analog/Video/Stream.cs, Analog/CaptureMethod.cs:
 	  implemented new streaming interface, new capture method (read/write)
 	  supported
 	* DVB, Digital: digital renamed to dvb
 
-2008-01-21  Tim Taubert <twenty-three@users.berlios.de> 
+2008-01-21  Tim Taubert
 
 	* Core/IOControl.cs: documentation added, formatting corrected
 
-2008-01-18  Tim Taubert <twenty-three@users.berlios.de> 
+2008-01-18  Tim Taubert
 
 	* Analog/Adapter.cs: print correct error message
 
-2008-01-18  Tim Taubert <twenty-three@users.berlios.de> 
+2008-01-18  Tim Taubert
 
 	* Analog/Adapter.cs: check for errors when opening adapter
 
-2007-12-27  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-27  Tim Taubert
 
 	* Analog/Control.cs: namespace corrected
 
-2007-12-27  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-27  Tim Taubert
 
 	* Analog/Kernel/v4l2_operation.cs, Analog/Adapter.cs, Analog/Control.cs,
 	  Core/IOControl.cs: added control support
 	* Analog/Video/VideoFormat.cs: property sizeimage added
 	* Analog/Buffer.cs: documentation updated
 
-2007-12-18  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-18  Tim Taubert
 
 	* Analog/Kernel/v4l2_format.cs, Analog/Video/SlicedVBIFormat.cs: problems
 	  with MarshalAs and arrays
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* Analog/Kernel/v4l2_vbi_format.cs: missing fields added
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* Analog/Kernel/v4l2_format.cs, Analog/Video/SlicedVBIFormat.cs,
 	  Analog/Video/SlicedVBIOutputFormat.cs,
 	  Analog/Video/SlicedVBICaptureFormat.cs: sliced vbi capture/output format
 	  settings added
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* Analog/Kernel/v4l2_format.cs, Analog/Video/VBICaptureFormat.cs,
 	  Analog/Video/VBIFormat.cs, Analog/Video/VBIOutputFormat.cs: vbi
 	  capture/output format settings added
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* Analog/Video/Rectangle.cs: public constructor missing
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* Analog/Video/OverlayOutputFormat.cs, Analog/Video/OverlayCaptureFormat.cs,
 	  Analog/Video/OverlayFormat.cs: video overlay support added
@@ -118,18 +118,18 @@
 
 === Release 0.3 ===
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* ChangeLog, Core/AssemblyInfo.cs: release 0.3 prepared
 
-2007-12-17  Tim Taubert <twenty-three@users.berlios.de> 
+2007-12-17  Tim Taubert
 
 	* Analog/Adapter.cs, Analog/Video/BaseFormat.cs,
 	  Analog/Video/FormatContainer.cs, Analog/Video/VideoCaptureFormat.cs,
 	  Analog/Video/VideoFormat.cs, Analog/Video/VideoOutputFormat.cs,
 	  v4l-net.mdp: refactored format setting system
 
-2007-11-23  Tim Taubert <twenty-three@users.berlios.de> 
+2007-11-23  Tim Taubert
 
 	* Analog/Adapter/Adapter.cs, Analog/Adapter/Capability.cs,
 	  Analog/Kernel/v4l2_input.cs, Analog/Kernel/v4l2_tuner.cs,
@@ -152,7 +152,7 @@
 	* Analog/Video/Format/Container.cs, Analog/Video/Format/Video.cs: new format
 	  handling started
 
-2007-11-22  Tim Taubert <twenty-three@users.berlios.de> 
+2007-11-22  Tim Taubert
 
 	* APIv2/v4l2_requestbuffers.cs, APIv2/v4l2_modulator.cs,
 	  APIv2/v4l2_std_id.cs, APIv2/v4l2_window.cs, APIv2/v4l2_buffer.cs,
@@ -210,20 +210,20 @@
 
 === Release 0.0.2 ===
 
-2007-11-21  Tim Taubert <twenty-three@users.berlios.de> 
+2007-11-21  Tim Taubert
 
 	* APIv2/v4l2_audio.cs, v4l-net.mdp, V4LAudioInputCapability.cs: class for
 	  audio input capabilities added
 	* V4LAudioInput.cs: added list of capabilities and support for automatic
 	  volume level mode
 
-2007-11-21  Tim Taubert <twenty-three@users.berlios.de> 
+2007-11-21  Tim Taubert
 
 	* LICENSE: license added
 	* AssemblyInfo.cs: project description changed
 	* v4l-net.mdp, V4LAudioInput.cs: documentation added
 
-2007-11-21  Tim Taubert <twenty-three@users.berlios.de> 
+2007-11-21  Tim Taubert
 
 	* V4LAudioInput.cs: added some documentation; some methods were made
 	  internal
