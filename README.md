@@ -3,4 +3,4 @@ It hasn't been updated in quite a while and is stored only for reference and arc
 
 Example:
 
-[examples/tv-viewer/tv-viewer/TVViewer.cs][https://github.com/ttaubert/video4linux-net/blob/master/examples/tv-viewer/tv-viewer/TVViewer.cs]
+[examples/tv-viewer/tv-viewer/TVViewer.cs](https://github.com/ttaubert/video4linux-net/blob/master/examples/tv-viewer/tv-viewer/TVViewer.cs)
