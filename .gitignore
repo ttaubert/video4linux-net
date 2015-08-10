@@ -1,0 +1,10 @@
+# Solution and project user files
+*.suo
+*.*proj.user
+
+# Ignore Nuget Packages
+library/v4l-net/packages/*
+
+# Binary Output
+library/**/obj/*
+library/**/bin/*
